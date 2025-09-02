@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: #ebebeb;
+    height: 15%;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.logoc {
+    width: 200px;
+    height: 50px;
+}
+
+.site {
+    text-decoration: none;
+}
+
+body {
+    background: rgb(136,18,53);
+    background: linear-gradient(180deg, rgba(136,18,53,1) 0%, rgba(99,13,39,1) 35%, rgba(47,4,17,1) 100%);
+    box-sizing: border-box;
+    color: #ffffff;
+    width: auto;
+}
+
+.conteudo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.textos {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.titulo {
+    font-size: 56px;
+    align-self: center;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+
+.bolo{
+    width: 1000px;
+    height: 500px;
+}
+
+.ingredientes{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.preparo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    background-color: #ebebeb;
+    width: 100%;
+    color: #881235;
+    font-size: 24px;
+}
+
+.sobremim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.sobre{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.para-sobre{
+    margin-bottom: 20px;
+}
+
+.adicionais {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ebebeb;
+    color: #881235;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ebebeb;
+    color: #881235;
+}
+
+.mapa {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ebebeb;
+    color: #881235;
+}
+
+.forms {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100px;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #ebebeb;
+    color: #881235;
+}
